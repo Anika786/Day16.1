@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background:#0c1d36 ;
+}
+
+.header-logo img{
+    width: 75px;
+}
+
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    padding-bottom: -4px;
+    
+}
+.primary-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 73px;
+    border-right: 1px solid red;
+    text-decoration: none;
+}
+.primary-menu ul li a:hover{
+    text-decoration: underline;
+    background-color: red;
+    color: #000;
+    
+}
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1614853036460-e8cff7410ee9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhbm5lciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D  );
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text h1{
+    background: #6909e7;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.banner-text h2{
+    background: #000;
+    color: red;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.about{
+    background: #000;
+    color: red;
+}
+.about h2{
+    text-decoration: underline;
+}
+.service{
+    background: #8a3c3c;
+    
+}
+.service-text{
+    color: black;
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.card{
+    border-radius: 35px;
+    border: 5px solid #000;
+    margin-top: 15px;
+}
+.card span{
+    background-color: rgb(69, 40, 150);
+    max-width: 140px;
+    margin: auto;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    border-radius: 30px;
+}
+.card i{
+    background-color: rgb(55, 184, 72);
+    border-radius: 20px 10px 20px 0;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    transition: .5s;
+}
+.card i:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.product{
+    background-color: rgb(255, 123, 0);
+    color: #000;
+}
+.product-item p{
+    font-size: 15px;
+    text-align: justify;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.product-right ul li{
+    background: #0000;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+}
+.product-right h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.footer{
+    background-color: #000;
+    color: red;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: red;
+    margin-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
